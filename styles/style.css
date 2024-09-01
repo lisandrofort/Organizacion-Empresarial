@@ -1,17 +1,24 @@
 :root{
-    --MAX: 70px;
+    --MAX: 45px;
+}
+@font-face{
+    src: url(/fonts/NerkoOne-Regular.ttf);
+    font-family: "NerkoOne";
 }
 body{
-    padding: 0;
+    padding: 5px;
     margin:0;
 }
 #DarkModeBtn{
+    background-color: #205295;
     width: var(--MAX);
     height: var(--MAX);
     position: absolute;
     box-sizing: content-box;
-    padding: 0;
+    padding: 5px;
     margin: 5px;
+    border-width: 3px;
+    border-color: #3282B8;
     border-radius: 50%;
     right: 0;
     overflow: hidden;
@@ -42,4 +49,9 @@ body{
     opacity: 0;
     pointer-events: none;
     cursor: not-allowed;
+}
+section{
+    h1{
+        font-family: "NerkoOne";
+    }
 }
