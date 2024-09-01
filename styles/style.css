@@ -1,3 +1,27 @@
+:root{
+    --MAX: 70px;
+}
+body{
+    padding: 0;
+    margin:0;
+}
+#DarkModeBtn{
+    width: var(--MAX);
+    height: var(--MAX);
+    position: absolute;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 5px;
+    border-radius: 50%;
+    right: 0;
+    overflow: hidden;
+}
+#DarkModeBtnMoon{
+    padding: 0;
+    margin: 0;
+    width: var(--MAX);
+    height: var(--MAX);
+}
 .dark-mode{
     background-color: black;
     color: white;
