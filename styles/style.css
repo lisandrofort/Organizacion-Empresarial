@@ -16,13 +16,30 @@ body{
     right: 0;
     overflow: hidden;
 }
-#DarkModeBtnMoon{
+.DarkModeBtnMoon{
     padding: 0;
     margin: 0;
     width: var(--MAX);
     height: var(--MAX);
+    background-image: url('/images/DarkModeBtn/moon.png');
+    background-size: cover; 
+    background-position: center; 
+}
+.DarkModeBtnSun{
+    padding: 0;
+    margin: 0;
+    width: var(--MAX);
+    height: var(--MAX);
+    background-image: url('/images/DarkModeBtn/sun.png');
+    background-size: cover; 
+    background-position: center; 
 }
 .dark-mode{
     background-color: black;
     color: white;
+}
+.disabled {
+    opacity: 0;
+    pointer-events: none;
+    cursor: not-allowed;
 }
