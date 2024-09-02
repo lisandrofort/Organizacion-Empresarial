@@ -9,8 +9,13 @@ body{
     padding: 5px;
     margin:0;
 }
+.bgSun{
+    background-color: #000000;
+}
+.bgMoon{
+    background-color: #e0c239;
+}
 #DarkModeBtn{
-    background-color: #205295;
     width: var(--MAX);
     height: var(--MAX);
     position: absolute;
@@ -42,7 +47,7 @@ body{
     background-position: center; 
 }
 .dark-mode{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
 }
 .disabled {
